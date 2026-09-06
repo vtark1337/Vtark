@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>О Hollyworld | Проект</title>
+	<meta name="description" content="Hollyworld — проект VTARK STUDIO об идеях, событиях, локациях и людях, которые создают общий мир.">
+	<meta name="keywords" content="VTARK STUDIO, Hollyworld, проект, локации, события, участники">
+	<meta name="author" content="VTARK STUDIO">
+	<link rel="stylesheet" href="vtarkstudio.css">
+	<style>
+		:root { --ink: #182316; --muted: #63705b; --paper: #f4f1e8; --green: #315c32; --lime: #a9ce54; --orange: #dc7b3c; }
+		* { box-sizing: border-box; }
+		html { scroll-behavior: smooth; }
+		body { margin: 0; color: var(--ink); background: var(--paper); font-family: "Trebuchet MS", "Segoe UI", sans-serif; }
+		a { color: inherit; text-decoration: none; }
+		.site-header { background: #1e351c; }
+		.nav { width: min(1180px, calc(100% - 40px)); min-height: 76px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+		.brand { display: flex; align-items: center; gap: 11px; color: #fffdf4; font-family: Georgia, serif; font-size: 1.22rem; font-weight: bold; }
+		.brand-mark { display: grid; width: 36px; height: 36px; place-items: center; color: #1e351c; background: var(--lime); border: 3px solid #d9ee92; font-size: 1.1rem; }
+		.nav-links { display: flex; gap: 26px; color: #dbe8cc; font-size: .92rem; }
+		.nav-links a:hover { color: white; }
+		.nav-cta, .button { display: inline-flex; align-items: center; justify-content: center; padding: 13px 18px; border: 0; font-weight: bold; transition: transform .2s; }
+		.nav-cta, .button-primary { color: #243322; background: var(--lime); }
+		.nav-cta:hover, .button:hover { transform: translateY(-3px); }
+		.hero { padding: 110px 20px 120px; color: white; background: linear-gradient(145deg, #1c4428, #477e3d 55%, #b3c95c); }
+		.hero-inner, .section { width: min(1180px, calc(100% - 40px)); margin: auto; }
+		.eyebrow, .section-kicker { margin: 0 0 15px; color: #dff39b; font-size: .78rem; font-weight: bold; letter-spacing: .18em; text-transform: uppercase; }
+		h1, h2, h3 { margin: 0; font-family: Georgia, "Times New Roman", serif; }
+		h1 { max-width: 750px; font-size: clamp(3.5rem, 8vw, 7rem); line-height: .9; letter-spacing: -.05em; }
+		.hero-copy { max-width: 590px; margin: 28px 0 0; color: #f1f6dd; font-size: 1.1rem; line-height: 1.7; }
+		.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+		.button-ghost { color: white; border: 1px solid rgba(255,255,255,.5); background: rgba(255,255,255,.08); }
+		.section { padding: 88px 0; }
+		.section-kicker { color: var(--orange); }
+		h2 { max-width: 700px; font-size: clamp(2.4rem, 5vw, 4.7rem); line-height: .98; }
+		.intro { max-width: 650px; margin: 24px 0 0; color: var(--muted); font-size: 1.05rem; line-height: 1.75; }
+		.values { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 44px; }
+		.value { min-height: 220px; padding: 26px; background: white; border-top: 5px solid var(--green); box-shadow: 0 16px 35px rgba(34,53,30,.08); }
+		.value-mark { color: var(--orange); font-size: 2.2rem; }
+		.value h3 { margin-top: 35px; font-size: 1.5rem; }
+		.value p { color: var(--muted); line-height: 1.55; }
+		.story { max-width: 820px; margin-top: 75px; }
+		.story p { margin: 0 0 17px; color: var(--muted); font-size: 1.02rem; line-height: 1.8; }
+		.story p:first-of-type { color: var(--ink); font-size: 1.15rem; }
+		.details { margin-top: 58px; }
+		.details p { margin: 0 0 14px; color: var(--muted); line-height: 1.75; }
+		.details p:first-of-type { color: var(--ink); font-size: 1.12rem; }
+		.note { margin-top: 50px; padding: 32px; background: #dfecc3; border-left: 7px solid var(--orange); }
+		.note p { margin: 12px 0 0; color: #506246; line-height: 1.6; }
+		footer { padding: 28px 20px; color: #d2dfc4; background: #1f3520; text-align: center; font-size: .85rem; }
+		@media (max-width: 800px) { .nav-links { display: none; } .values { grid-template-columns: 1fr; } }
+		@media (max-width: 520px) { .nav { width: calc(100% - 28px); } .nav-cta { padding: 10px 12px; font-size: .8rem; } .hero { padding: 75px 20px 90px; } .hero-inner, .section { width: calc(100% - 28px); } .section { padding: 65px 0; } }
+	</style>
+</head>
+<body>
+	<header class="site-header">
+		<nav class="nav" aria-label="Основная навигация">
+			<a class="brand" href="index.html"><span class="brand-mark">✦</span> HOLLYWORLD</a>
+			<div class="nav-links"><a href="index.html#categories">Разделы</a><a href="index.html#gallery">Моменты</a><a href="vtark.html">О Hollyworld</a><a href="third.html">Funtime</a></div>
+			<a class="nav-cta" href="index.html">На главную</a>
+		</nav>
+	</header>
+	<main>
+		<section class="hero"><div class="hero-inner"><p class="eyebrow">Страница проекта</p><h1>Это Hollyworld.</h1><p class="hero-copy">Общее пространство для идей, событий и людей. Здесь рождаются новые истории, а каждый участник оставляет свой след.</p><div class="hero-actions"><a class="button button-primary" href="#story">Узнать историю ↓</a><a class="button button-ghost" href="index.html">Вернуться на главную</a></div></div></section>
+		<section class="section">
+			<p class="section-kicker">Философия проекта</p><h2>Собираем мир из ярких моментов.</h2><p class="intro">Hollyworld создан для того, чтобы хранить атмосферу проекта в одном месте: показывать локации, рассказывать о событиях и знакомить участников друг с другом. Эта страница будет расти вместе с твоими материалами.</p>
+			<div class="values"><article class="value"><div class="value-mark">01</div><h3>Идеи</h3><p>Место для проектов, концепций и планов, которые хочется воплотить.</p></article><article class="value"><div class="value-mark">02</div><h3>События</h3><p>Хроника важных моментов, обновлений и общих приключений.</p></article><article class="value"><div class="value-mark">03</div><h3>Люди</h3><p>Участники Hollyworld и истории, которые делают проект живым.</p></article></div>
+			<div class="story" id="story">
+				<p>Hollyworld — это место, где каждый может найти собственную точку старта.</p>
+				<p>Проект объединяет людей, которым нравится создавать что-то необычное.</p>
+				<p>Здесь важны не только красивые результаты, но и путь к ним.</p>
+				<p>Каждая идея получает пространство для развития.</p>
+				<p>Небольшая задумка со временем может превратиться в большой проект.</p>
+				<p>Участники могут делиться своими работами, находками и планами.</p>
+				<p>Локации Hollyworld становятся фоном для новых историй.</p>
+				<p>События помогают проекту сохранять движение и настроение.</p>
+				<p>Общие активности делают знакомство между участниками естественным.</p>
+				<p>Каждый новый материал дополняет общую картину мира.</p>
+				<p>Здесь можно показать готовую постройку или рассказать о процессе.</p>
+				<p>Можно сохранить важный момент, который хочется пережить снова.</p>
+				<p>Можно предложить идею для будущего обновления.</p>
+				<p>Можно найти единомышленников для совместного дела.</p>
+				<p>Hollyworld задуман как живой проект, а не как статичная витрина.</p>
+				<p>Поэтому его содержание будет меняться вместе с сообществом.</p>
+				<p>Главная страница собирает самые заметные моменты в одном месте.</p>
+				<p>Страница проекта помогает лучше понять характер и направление Hollyworld.</p>
+				<p>А раздел Funtime добавляет отдельную атмосферу анархии и зимних приключений.</p>
+				<p>В будущем сюда можно добавить фотографии, новости, правила и новые категории.</p>
+			</div>
+			<div class="details">
+				<p>Hollyworld начинается с идеи создать место для совместного творчества.</p><p>Этот проект объединяет визуальные материалы и живые истории.</p><p>Каждый раздел помогает увидеть Hollyworld с новой стороны.</p><p>Главная страница знакомит посетителя с общей атмосферой.</p><p>Галерея собирает самые выразительные моменты проекта.</p><p>Категории делают большой объём материалов понятным.</p><p>Локации показывают пространство, в котором происходят события.</p><p>Проекты демонстрируют фантазию участников.</p><p>События создают ощущение движения и ожидания.</p><p>Участники наполняют проект личными историями.</p><p>В Hollyworld важен вклад каждого человека.</p><p>Даже небольшая деталь может запомниться надолго.</p><p>Хорошая фотография способна передать настроение целого дня.</p><p>Короткое описание помогает сохранить контекст момента.</p><p>Совместные проекты открывают новые возможности для общения.</p><p>Общие события помогают участникам лучше узнать друг друга.</p><p>Разные идеи могут соединиться в одной большой истории.</p><p>Сайт постепенно превращается в архив развития Hollyworld.</p><p>Каждое обновление добавляет ему новый слой смысла.</p><p>Проект не ограничивается одной тематикой или форматом.</p><p>Здесь можно рассказать о строении, команде или приключении.</p><p>Можно показать процесс подготовки к важному событию.</p><p>Можно поделиться идеей будущей локации.</p><p>Можно сохранить воспоминание о совместном вечере.</p><p>Структура сайта рассчитана на постепенное расширение.</p><p>Новые страницы смогут поддерживать общую навигацию.</p><p>Переход на Funtime добавляет истории зимней анархии.</p><p>Этот контраст делает вселенную VTARK STUDIO разнообразнее.</p><p>Зелёная палитра Hollyworld напоминает о жизни и росте.</p><p>Крупные заголовки помогают быстро понять смысл раздела.</p><p>Карточки выделяют главные направления проекта.</p><p>Спокойный текст оставляет место для воображения.</p><p>Адаптивная страница остаётся удобной на любом экране.</p><p>Каждая кнопка ведёт к следующему логичному шагу.</p><p>Главная страница возвращает посетителя к общей галерее.</p><p>Funtime открывает отдельную атмосферу внутри общей идеи.</p><p>Будущие фотографии сделают описание ещё конкретнее.</p><p>Будущие новости покажут, как меняется проект.</p><p>Hollyworld растёт благодаря вниманию к деталям.</p><p>VTARK STUDIO сохраняет для него единый визуальный стиль.</p><p>Вместе эти страницы создают цельную историю большого мира.</p>
+			</div>
+			<div class="note"><h3>Готов вернуться к материалам?</h3><p>На главной странице уже работают переходы по разделам и фильтр галереи.</p><a class="button button-primary" href="index.html#gallery">Открыть галерею →</a></div>
+		</section>
+	</main>
+	<footer>HOLLYWORLD · мир, который создаём вместе</footer>
+</body>
+</html>
