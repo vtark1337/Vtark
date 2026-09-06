@@ -1,0 +1,23 @@
+/* Shared VTARK STUDIO stylesheet */
+:root {
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+a:focus-visible, button:focus-visible {
+	outline: 3px solid #e78b4c;
+	outline-offset: 3px;
+}
